@@ -1,0 +1,14 @@
+
+.comments__author{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 930px){
+    .comments__author{
+        display: none;
+    }
+}

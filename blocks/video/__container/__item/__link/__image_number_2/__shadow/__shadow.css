@@ -1,0 +1,47 @@
+.video__shadow{
+    width: 583px;
+    height: 323px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0;
+    transition: opacity linear 0.2s 0s;
+}
+
+.video__image-2:hover .video__shadow{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px){
+    .video__shadow{
+        width: 456px;
+        height: 253px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .video__shadow{
+        width: 352px;
+        height: 195.3px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .video__shadow{
+        width: 583px;
+        height: 323px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .video__shadow{
+        width: 343px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .video__shadow{
+        width: 288px;
+        height: 160px;
+    }
+}

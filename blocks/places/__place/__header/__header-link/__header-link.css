@@ -1,0 +1,21 @@
+@import url('./_text/_text.css');
+@import url('.//_title/_title.css');
+
+.places__header-link{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px){
+    .places__header-link{
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .places__header-link{
+        display: none;
+    }
+}

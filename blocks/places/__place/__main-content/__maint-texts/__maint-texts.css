@@ -1,0 +1,21 @@
+@import url('./_number_1/_number_1.css');
+@import url('./_number_2/_number_2.css');
+@import url('./__main-text/__main-text.css');
+
+.places__main-texts{
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .places__main-texts{
+        margin-left: 3.23%;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .places__main-texts{
+        margin: 24px 3.23% 0 3.23%;
+    }
+}
+

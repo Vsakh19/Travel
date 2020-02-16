@@ -1,0 +1,8 @@
+.additional__shadow{
+    width: 284px;
+    height: 330px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}

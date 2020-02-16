@@ -1,0 +1,6 @@
+@import url('./__image_number_1/__image_number_1.css');
+@import url('./__image_number_2/__image_number_2.css');
+
+.video__link{
+    text-decoration: none;
+}

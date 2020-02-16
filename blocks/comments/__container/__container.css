@@ -1,0 +1,36 @@
+@import url('./__comment/__comment.css');
+
+.comments__container{
+    display: grid;
+    grid-template-columns: repeat(3, 382px);
+    grid-gap: 19px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1180px){
+    .comments__container{
+        grid-template-columns: repeat(3, 296px);
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 930px){
+    .comments__container{
+        grid-template-columns: repeat(1, 382px);
+        grid-gap: 48px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .comments__container{
+        grid-template-columns: repeat(1, 343px);
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .comments__container{
+        grid-template-columns: repeat(1, 288px);
+    }
+}

@@ -1,0 +1,6 @@
+@import url('./sub-li/sub-li.css');
+
+.intro__sub-ul{
+    margin: 35px 0px 0px 0px;
+    padding: 0px;
+}

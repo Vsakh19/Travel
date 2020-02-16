@@ -1,0 +1,5 @@
+@import url('./sub-span/sub-span.css');
+
+.intro__sub-li{
+    list-style-type: none;
+}

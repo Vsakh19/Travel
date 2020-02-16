@@ -1,0 +1,7 @@
+@import url('./__item/__item.css');
+
+.emblem__container{
+    display: grid;
+    grid-template-columns: repeat(5, 208px); 
+    grid-gap: 36px;
+}

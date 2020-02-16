@@ -1,0 +1,14 @@
+@import url('./__text-main/__text-main.css');
+@import url('./__text-info/__text-info.css');
+
+.intro__content-row{
+    
+    width: 984px;
+    display: flex;
+}
+
+@media screen and (max-width: 990px){
+    .intro__content-row{
+        width: 93%;
+    }
+}

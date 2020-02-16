@@ -1,0 +1,35 @@
+@import url('./__link/__link.css');
+
+.video__item{
+    width: 583px;
+}
+
+@media screen and (max-width: 1200px){
+    .video__item{
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .video__item{
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .video__item{
+        width: 583px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .video__item{
+        width: 343px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .video__item{
+        width: 288px;
+    }
+}

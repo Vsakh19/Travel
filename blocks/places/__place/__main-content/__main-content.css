@@ -1,0 +1,19 @@
+@import url('./__pic/__pic.css');
+@import url('./__maint-texts/__maint-texts.css');
+
+.places__main-content{
+    display: flex;
+}
+
+@media screen and (max-width: 1000px){
+    .places__main-content{
+        margin: 0 3.5%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .places__main-content{
+        flex-direction: column;
+        margin: 0;
+    }
+}

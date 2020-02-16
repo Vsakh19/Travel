@@ -1,0 +1,23 @@
+@import url('./__lang/__lang.css');
+@import url('./__lang_active/__lang_active.css');
+
+.header__lang-container{
+    margin: 47px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    grid-column-gap: 18px;
+}
+
+@media screen and (max-width: 375px){
+    .header__lang-container{
+        grid-column-gap: 16px;
+        margin-top: 33px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header__lang-container{
+        grid-column-gap: 16px;
+        margin-top: 32px;
+    }
+}

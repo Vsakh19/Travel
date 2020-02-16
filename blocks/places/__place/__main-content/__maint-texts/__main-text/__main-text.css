@@ -1,0 +1,15 @@
+.places__main-text{
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+
+@media screen and (max-width: 768px){
+    .places__main-text{
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

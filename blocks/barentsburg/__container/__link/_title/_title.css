@@ -1,0 +1,11 @@
+@import url('./_text/_text.css');
+
+.barentsburg__link_title{
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    margin: 0px 0px 12px 0px;
+    color: #AAAAAA;
+    
+}

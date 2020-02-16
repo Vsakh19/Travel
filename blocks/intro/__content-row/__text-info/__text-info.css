@@ -1,0 +1,11 @@
+@import url('./__main-span/__main-span.css');
+
+.intro__text-info{
+    width: 143px;
+    margin: 0px 0px 0px 18px;
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-weight: normal;
+}

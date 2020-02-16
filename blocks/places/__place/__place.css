@@ -1,0 +1,9 @@
+@import url('./__header/__header.css');
+@import url('./__main-content/__main-content.css');
+
+.places__place{
+    margin: 0px auto 72px auto;
+}
+.places__place:last-of-type{
+    margin: 0px auto 0px auto;
+}

@@ -1,0 +1,19 @@
+@import url('./__header-link/__header-link.css');
+@import url('./__place-title/__place-title.css');
+
+.places__header{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1000px){
+    .places__header{
+        margin: 0 3.5% 60px 3.5%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .places__header{
+        margin: 0 3.5% 32px 3.5%;
+    }
+}

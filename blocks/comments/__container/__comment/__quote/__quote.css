@@ -1,0 +1,37 @@
+.comments__quote{
+    width: 382px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 42px 0px 24px 0px;
+}
+
+
+
+@media screen and (max-width: 1180px){
+    .comments__quote{
+        width: 296px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .comments__quote{
+        width: 382px;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .comments__quote{
+        width: 343px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .comments__quote{
+        width: 288px;
+    }
+}

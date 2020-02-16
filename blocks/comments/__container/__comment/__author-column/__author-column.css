@@ -1,0 +1,21 @@
+.comments__author-column{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: none;
+    margin: 16px 0 24px 0;
+}
+
+@media screen and (max-width: 930px){
+    .comments__author-column{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .comments__author-column{
+        margin: 10px 0 20px 0;
+    }
+}

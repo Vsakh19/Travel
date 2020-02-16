@@ -1,0 +1,11 @@
+@import url('./__item/__item.css');
+@import url('./__item_number_1/__item_number_1.css');
+@import url('./__item_number_2/__item_number_2.css');
+@import url('./__item_number_3/__item_number_3.css');
+@import url('./__item_number_4/__item_number_4.css');
+
+.additional__container{
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-gap: 16px;
+}

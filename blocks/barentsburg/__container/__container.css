@@ -1,0 +1,7 @@
+@import url('./__link/__link.css');
+@import url('./__text/__text.css');
+
+.barentsburg__container{
+    display: flex;
+    margin-top: 48px;
+}
